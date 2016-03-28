@@ -12,8 +12,17 @@ app.controller('MainCtrl',function(){
 
   this.addPost = function(){
     if (!this.title | this.title ==='') {return;}
-    this.posts.push({title: this.title, upvotes: 0});
+    this.posts.push({
+      title: this.title,
+      link: this.link,
+      upvotes: 0});
+
     this.title = '';
+    this.link = '';
+  };
+
+  this.incrementUpvotes = function(post){
+    post.upvotes += 1;
   };
 });
 
@@ -22,3 +31,7 @@ app.controller('MainCtrl',function(){
 // function($scope){
 //   $scope.test = 'Hello world!';
 // }]);
+
+app.factory('posts',function(){
+  
+})
