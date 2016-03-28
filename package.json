@@ -1,0 +1,23 @@
+{
+  "name": "flapper",
+  "version": "1.0.0",
+  "description": "Tutorial de Thinkster.io",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroquadri/flapper.git"
+  },
+  "author": "Alejandro Quadri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroquadri/flapper/issues"
+  },
+  "homepage": "https://github.com/alejandroquadri/flapper#readme"
+}
